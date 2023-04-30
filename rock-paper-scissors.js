@@ -23,17 +23,17 @@ function playRound(computerSelection) {
             return "TIE! Try again!";
             }
         case "paper":
-            if (computerSelection === "paper") {
+            if (computerSelection === "Paper") {
                 return "You win! Paper beats Rock!";
-            } else if (computerSelection === "scissors") {
+            } else if (computerSelection === "Scissors") {
                 return "You lose! Scissors beats Paper!";
             } else {
                 return "TIE! Try again!";
             }
         case "scissors":
-            if (computerSelection === "paper") {
+            if (computerSelection === "Paper") {
                 return "You win! Scissors beats Paper!";
-            } else if (computerSelection === "rock") {
+            } else if (computerSelection === "Rock") {
                 return "You lose! Rock beats Scissors!";
             } else {
                 return "TIE! Try again!";
