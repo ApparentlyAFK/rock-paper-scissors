@@ -13,8 +13,24 @@ function getComputerChoice() {
     };
 }
 
-console.log(getComputerChoice());
-
 function playRound(playerSelection, computerSelection) {
-    return
+    switch (playerSelection === "rock") {
+        case (computerSelection === "Scissors"):
+            return "You win! Rock beats Scissors!";
+            break;
+        case (computerSelection === "Paper"):
+            return "You lose! Paper beats Rock!";
+            break;
+        case (computerSelection === "Rock"):
+            return "TIE! Try again!";
+            break;
+    };
+
+    // switch (playerSelection === "paper") {
+    //     case
+    // };
+
+    // switch (playerSelection === "scissors") {
+    //     case
+    // };
 }
