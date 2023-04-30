@@ -24,3 +24,11 @@ function playRound(computerSelection) {
             }
     };
 }
+
+function game() {
+    const computerSelection = getComputerChoice();
+    const result = playRound(computerSelection);
+
+    const resultElement = document.getElementById('result');
+    resultElement.textContent = result;
+}
